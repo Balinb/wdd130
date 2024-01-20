@@ -10,9 +10,9 @@
 --paragraph-font: Work, Sans;
 
 --nav-background-color: #BBC5AA
---nav-link-color: #DDE2C6
+--nav-link-color: #090C02
 --nav-hover-link-color: #A72608
---nav-hover-background-color: #DDE2C6
+--nav-hover-background-color: #A72608
 
 }
 
@@ -25,7 +25,7 @@ padding: 20px ;
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
 header {
