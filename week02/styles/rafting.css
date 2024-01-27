@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap')
+
+
+:root {
+    --primary-color: #DDE2C6;
+--secondary-color: #BBC5AA;
+--accent-color: #A72608;
+--accent2-color: #090C02;
+
+--heading-font: Josefin, Sans;
+--paragraph-font: Nunito, Sans;
+
+--nav-background-color: #BBC5AA
+--nav-link-color: #A72608
+--nav-hover-link-color: #A72608
+--nav-hover-background-color: #090C02
+}
+
+body {
+    font-family: var(--paragraph font) ;
+max-width: 960px;
+padding: 20px ;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent-color);
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+}
+
+article, img{
+    position: absolute;
+    float: right;
+    background-color: aliceblue;
+    opacity: var(--accent2-color);
+}
