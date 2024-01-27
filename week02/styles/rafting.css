@@ -41,6 +41,6 @@ h1 {
 article, img{
     position: absolute;
     float: right;
-    background-color: aliceblue;
+    background-color: black;
     opacity: var(--accent2-color);
 }
