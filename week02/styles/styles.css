@@ -29,6 +29,7 @@ p {
     padding: 10px;
 }
 main {
+    max-width: 840px;
     
 }
 aside{
@@ -115,7 +116,7 @@ main{
 aside {width: auto;
     position: relative;
     grid-template-columns: 2/3;
-     
+
 
 }
     
