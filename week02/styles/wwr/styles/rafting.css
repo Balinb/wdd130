@@ -18,9 +18,10 @@
 
 body {
     font-family: var(--paragraph font) ;
-max-width: 960px;
+width: 960px;
 padding: 20px ;
 background-color: #A72608;
+margin: 0 auto;
 
 }
 
@@ -34,34 +35,49 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: auto;
 }
-
+.hero {
+    position: relative;
+    border: 10px solid #000;
+}
 h1 {
     position: absolute;
+    top: 10%;
 }
 
-article, img{
+article {
     position: absolute;
+    background-color: rgba(255,255,255,0.6);
+    top: 40%;
+}
+
+h1, article {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero article img {
     float: right;
-    background-color: black;
-    opacity: var(--accent2-color);
+    width: 150px;
 }
 
 header {
-    margin: 1rem;
-    max-width: 840px;
     display: grid;
-    align-items: center;
     border-bottom: 1px black;
+    grid-template-columns: 1fr 2fr;
 }
 
-.logo img {
+header img {
     margin: auto;
     max-width: 70px;
     height: auto;
 }
 
-nav{
+nav a{
     text-align: left;
+    color: #BBC5AA;
+    text-decoration: none;
 }
 
 .navigation{
@@ -81,15 +97,12 @@ align-items: flex-start;
 
 figure {
     border: thin #c0c0c0 solid;
-    display: flex;
-    flex-flow: column;
     padding: 5px;
-    max-width: 220px;
     margin: auto;
   }
   
-  img {
-    max-width: 220px;
+ figure img {
+    width: 100%;
     max-height: 150px;
   }
   
@@ -104,4 +117,8 @@ figure {
 footer {
     justify-content: flex-end;
     align-items: flex-end;
+}
+
+.figures {
+    display: flex;
 }
