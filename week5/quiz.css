@@ -1,0 +1,42 @@
+{
+    margin: auto;
+    padding: auto;
+    border: 0cm;
+}
+
+body {
+    background-color:aliceblue;
+    width: fit-content;
+}
+
+header {
+    width: 650px;
+    margin: auto;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color:black
+    text-align: center;
+}
+
+form {
+    display: grid;
+    justify-content: space-between;
+    width: 650px
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 2rem;
+    padding: 2rem
+}
+
+legend {
+    padding: 1rem;
+}
+
+label {
+    text-align: left;
+}
