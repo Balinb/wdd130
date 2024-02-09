@@ -1,12 +1,6 @@
-{
-    margin: auto;
-    padding: auto;
-    border: 0cm;
-}
-
 body {
-    background-color:gray;
-    width: fit-content;
+    background-color:rgb(250, 247, 247);
+    width:fit-content;
 }
 
 header {
@@ -17,7 +11,7 @@ header {
 h1 {
     margin: 1rem;
     font-size: 1.5em;
-    color:black
+    color:black;
     text-align: center;
 }
 
@@ -29,8 +23,9 @@ form {
 
 fieldset {
     display: grid;
-    grid-gap: 2rem;
-    padding: 2rem
+    grid-gap: 0.5rem;
+    padding: 2rem;
+    margin: 2rem;
 }
 
 legend {
@@ -39,4 +34,8 @@ legend {
 
 label {
     text-align: left;
+}
+
+input[type="checkbox"] {
+    width: 22px;
 }
