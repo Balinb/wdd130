@@ -121,4 +121,11 @@ footer {
 
 .figures {
     display: flex;
+    justify-content: center;
+}
+
+form {
+    width: auto;
+    display: grid;
+    padding: 1rem;
 }
